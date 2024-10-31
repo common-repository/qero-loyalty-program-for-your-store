@@ -1,0 +1,179 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+@font-face {
+    font-family: 'qero_icon_font';
+    src:  url('../../admin/assets/fonts/icomoon.eot?yztt29');
+    src:  url('../../admin/assets/fonts/icomoon.eot?yztt29#iefix') format('embedded-opentype'),
+    url('../../admin/assets/fonts/icomoon.ttf?yztt29') format('truetype'),
+    url('../../admin/assets/fonts/icomoon.woff?yztt29') format('woff'),
+    url('../../admin/assets/fonts/icomoon.svg?yztt29#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.qero-loader {
+    color: transparent !important;
+    min-height: .8rem;
+    pointer-events: none;
+    position: relative;
+}
+
+.qero-loader::after {
+    animation: qero-loader 500ms infinite linear;
+    border: .1rem solid #3e3e3f;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    content: "";
+    display: block;
+    height: .8rem;
+    width: .8rem;
+    z-index: 1;
+}
+
+.qero-loader.qero-loader-lg {
+    min-height: 2rem;
+}
+
+.qero-loader.qero-loader-lg::after {
+    height: 1.6rem;
+    margin-left: -.8rem;
+    margin-top: -.8rem;
+    width: 1.6rem;
+}
+
+@keyframes qero-loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+body.woocommerce-account ul li.woocommerce-MyAccount-navigation-link--qero a:before{
+    font-family: 'qero_icon_font' !important;
+    content: "\e900";
+}
+
+.qero-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.qero-sub-main{
+    display: flex;
+    flex-direction: column;
+}
+
+.qero_isa_info, .qero_isa_success, .qero_isa_warning, .qero_isa_error {
+    margin: 5px 0px;
+    padding:5px;
+
+}
+.qero_isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+.qero_isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+.qero_isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+.qero_isa_error {
+    color: #D8000C;
+    background-color: #FFD2D2;
+    min-width: 100%;
+}
+.qero_isa_info i, .qero_isa_success i, .qero_isa_warning i, .qero_isa_error i {
+    margin:5px 5px;
+    vertical-align:middle;
+}
+
+.qero-form-field-text{
+    font-size: 1.000em;
+}
+
+.qero-border-table{
+    outline: 2px dashed #fff;
+    outline-offset: -10px;
+}
+
+.qero-movemnt-less{
+    background-color: #ffbebe;
+}
+
+.qero-movemnt-more{
+    background-color: #b8ffc1;
+}
+
+.qero-movemnt-wait{
+    background-color: #fff8a9;
+}
+
+.qero-pagination {
+    text-align: center;
+}
+
+.qero-pagination a {
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.qero-pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.qero-pagination a:hover:not(.active) {background-color: #ddd;}
+
+.qero-sub-main input{
+    width: 100%;
+}
+
+.qero-pointer-button{
+    cursor: pointer;
+}
+
+.qero-icon:before{
+    margin-top: 5px;
+    font-family: 'qero_icon_font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    content: "\e900";
+}
+
+.qero-display-points-win{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.qero-button-center{
+    width: 100%;
+    text-align: center;
+}
+
+.qero-logged-not-loyal{
+    padding: 1.41575em;
+    margin-bottom: 0;
+    float: none;
+    width: 100%;
+    margin-top: 2.617924em;
+}

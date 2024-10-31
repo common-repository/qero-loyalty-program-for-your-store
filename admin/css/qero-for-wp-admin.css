@@ -1,0 +1,313 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.qero-clean{
+}
+
+.qero-button:disabled{
+    background: #ffc9ca!important;
+    border-color: #ffbab6 !important;
+    cursor: not-allowed;
+}
+
+.qero-button-inverse:disabled{
+    color: #ffc8c9 !important;
+    border-color: #ffc8c9 !important;
+    cursor: not-allowed;
+}
+
+.qero-loader {
+    color: transparent !important;
+    min-height: .8rem;
+    pointer-events: none;
+    position: relative;
+}
+
+.qero-loader::after {
+    animation: qero-loader 500ms infinite linear;
+    border: .1rem solid #3e3e3f;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    content: "";
+    display: block;
+    height: .8rem;
+    width: .8rem;
+    z-index: 1;
+}
+
+.qero-loader.qero-loader-lg {
+    min-height: 2rem;
+}
+
+.qero-loader.qero-loader-lg::after {
+    height: 1.6rem;
+    margin-left: -.8rem;
+    margin-top: -.8rem;
+    width: 1.6rem;
+}
+
+@keyframes qero-loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.qero-icon{
+    content: url("../assets/_icon_qero.svg");
+    margin-right: 4px;
+    width: 12px;
+    height: 12px;
+    top: 50%;
+}
+
+.qero-container-api-key{
+    display: flex;
+    justify-content: center;}
+
+.qero-form-api-key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50%;
+    max-width: 100%;
+}
+
+.qero-sub-title{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.qero-page-title{
+    padding-top:10px;
+    margin-top: 10px;
+}
+
+.qero-page-title h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0 ;
+    font-size: 2em;
+}
+
+.qero-page-title h1 img{
+    width: 1em;
+    height: 1em;
+}
+
+.qero-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch;
+}
+.qero-sub-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invalidjQuery{
+    border-color: salmon !important;
+}
+
+.qero-white-panel h6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.qero-white-panel h6 .spinner-border{
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+button.qero-button{
+    min-width: 200px;!important;
+    height: 40px !important;
+    color: #fef6f6 !important;
+    background: #E04B4D!important;
+    border-color: #ff3b31 !important;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+button.qero-button-inverse{
+    min-width: 200px;
+    height: 40px !important;
+    color: #E04B4D !important;
+    background: #FFFFFF!important;
+    border-color: #E04B4D !important;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+.qero-button-close{
+    width: 40px;
+    min-width: 40px;
+    height: 40px !important;
+    color: #707070 !important;
+    vertical-align: top;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.qero-white-panel p{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+button.qero-button-green{
+    min-width: 200px;
+    height: 40px !important;
+    color: #fef6f6 !important;
+    background: #95B75D!important;
+    border-color: #5cb73b !important;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+    border-radius: 5px;
+}
+
+button.qero-button-plus{
+    width: 25px !important;
+    height: 25px !important;
+    padding:2px;
+}
+
+.form-group select{
+    width: 200px;
+    height: 40px !important;
+}
+.form-group button{
+    width: 200px;
+    height: 40px !important;
+}
+
+.qero-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99;
+}
+
+.qero-white-panel{
+    background-color: #fff;
+    border-radius: 2px;
+    padding: 20px;
+    width: 49%;
+    margin: 5px;
+}
+
+.qero-no-background-panel{
+    border-radius: 2px;
+    padding: 20px;
+    width: 49%;
+    margin: 5px;
+}
+.page-item.active a{
+    color: #E04B4D !important;
+    background-color: #FFF !important;;
+    border-color: #E04B4D !important;;
+}
+
+.pagination{
+    display: flex !important;
+    list-style: none !important;
+    margin: .2rem 0 !important;
+    padding: .2rem 0 !important;
+}
+
+.pagination li a:focus, .pagination li a:hover {
+    color: #E04B4D !important;
+}
+.pagination li a{
+    color: #dee2e6 !important;
+    border-radius: 6px !important;
+}
+
+.pagination .active span{
+    color: #E04B4D !important;
+    margin: 0px 4px 0px 4px;
+    border: 1px solid #E04B4D;
+    border-radius: 6px;
+    padding: .5rem .75rem;
+    display: block;
+    line-height: 1.25;
+}
+
+.pagination .disabled span{
+    color: #dee2e6 !important;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: .5rem .75rem;
+    display: block;
+    line-height: 1.25;
+}
+
+.qero-message-hiden{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.qero-table-round{
+    background-color: #484848;
+    border-radius: 10px !important;
+    text-align: center !important;
+    font-size: 14px !important;
+}
+
+.qero-table-round tbody, .qero-table-round tfoot {
+    background-color: #FFF;
+}
+
+.qero-table-round th {
+    border: 0px !important;
+    color: #FFF;
+    font-weight: normal;
+}
+
+.qero-center-div{
+    display: flex;
+    justify-content: center;
+}
+
+.qero-display-white-bar input, .qero-display-white-bar button{
+    margin-right: 20px;
+}
+
+.qero-display-white-bar span{
+    align-self: center;
+    width: 70px;
+    margin-right: 10px;
+}
+
+.qero-display-white-bar{
+    width: 100%;
+}

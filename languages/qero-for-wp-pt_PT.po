@@ -1,0 +1,571 @@
+msgid ""
+msgstr ""
+"Language: pt_PT\n"
+"POT-Creation-Date: 2019-12-23 15:33+0000\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"PO-Revision-Date: 2019-12-23 15:34+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Project-Id-Version: Qero\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: egoidev <tmota@e-goi.com>\n"
+"Language-Team: Português\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Version: 2.3.0; wp-5.2.5"
+
+#: qero-for-wp.php:70
+msgid "To use this plugin, you first need to install"
+msgstr "Para utilizar este plugin, é necessário instalar"
+
+#: qero-for-wp.php:78
+msgid ""
+"By removing this plugin, you will no longer be able to use the Qero plugin"
+msgstr "Se remover este plugin, não vai conseguir utilizar o plugin do Qero"
+
+#: emails/class-qero-invite-email.php:9
+msgid "Invite for loyalty"
+msgstr "Convite à Fidelização"
+
+#: emails/class-qero-invite-email.php:10
+msgid "This email is received when a customer registers."
+msgstr "Este email é enviado quando um subscritor se regista."
+
+#: emails/class-qero-invite-email.php:12
+msgid "Become a loyal customer!"
+msgstr "Torne-se cliente fidelizado!"
+
+#: emails/class-qero-invite-email.php:13
+msgid "Hello {name}, Now you can earn points with Qero!"
+msgstr "Olá {name}, Agora pode ganhar pontos com o Qero!"
+
+#: emails/class-qero-invite-email.php:100
+msgid "Enable/Disable"
+msgstr "Ligar/Desligar"
+
+#: emails/class-qero-invite-email.php:102
+msgid "Enable this email notification"
+msgstr "Ligue esta notificação pode E-mail"
+
+#: emails/class-qero-invite-email.php:106
+msgid "Recipient"
+msgstr "Destinatário"
+
+#: emails/class-qero-invite-email.php:108
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s"
+msgstr ""
+"Escreva os destinatários (separados por vírgula) para este email. O default "
+"é %s"
+
+#: emails/class-qero-invite-email.php:112
+msgid "Subject"
+msgstr "Assunto"
+
+#: emails/class-qero-invite-email.php:114
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" <code>%s</code>."
+msgstr ""
+"Isso controla a linha de assunto do email. Deixe em branco para usar o "
+"assunto padrão: <code>%s</code>."
+
+#: emails/class-qero-invite-email.php:119
+msgid "Email Heading"
+msgstr "Cabeçalho do email"
+
+#: emails/class-qero-invite-email.php:121
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"Isso controla o cabeçalho principal contido na notificação por email. Deixe "
+"em branco para usar o cabeçalho padrão: <code>% s </code>."
+
+#: emails/class-qero-invite-email.php:126
+msgid "Email type"
+msgstr "Tipo de Email"
+
+#: emails/class-qero-invite-email.php:128
+msgid "Choose which format of email to send."
+msgstr "Escolha qual formato de email enviar."
+
+#: emails/class-qero-invite-email.php:132
+msgid "Plain text"
+msgstr "Texto"
+
+#: emails/class-qero-invite-email.php:133
+msgid "HTML"
+msgstr ""
+
+#: emails/class-qero-invite-email.php:134
+msgid "Multipart"
+msgstr ""
+
+#: includes/class-qero-for-wp-admin-bo.php:421
+msgid "Number of new clients"
+msgstr "Número de novos clientes"
+
+#: includes/class-qero-for-wp-admin-bo.php:444
+msgid "Number of sells"
+msgstr "Número de vendas"
+
+#: includes/class-qero-for-wp-admin-bo.php:448
+msgid "Sales Value"
+msgstr "Valor das vendas"
+
+#: admin/class-qero-for-wp-admin.php:73
+msgid "Missing Egoi's ApiKey!"
+msgstr "Falta inserir a APIKEY da sua conta E-goi!"
+
+#: admin/class-qero-for-wp-admin.php:74
+msgid "Store id is not valid!"
+msgstr "O código da loja não é válido!"
+
+#: admin/class-qero-for-wp-admin.php:144
+#: admin/templates/account/qero-for-wp-config.php:21
+msgid "Account"
+msgstr "Conta"
+
+#: admin/class-qero-for-wp-admin.php:147
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:18
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: admin/class-qero-for-wp-admin.php:208
+msgid "Invalid store name."
+msgstr "Nome da loja inválido."
+
+#: admin/class-qero-for-wp-admin.php:313
+msgid "Loyal"
+msgstr "Fidelizado"
+
+#: admin/class-qero-for-wp-admin.php:391
+msgid "This is one time use only."
+msgstr "Esta funcionalidade é utilizável apenas uma vez!"
+
+#: public/class-qero-for-wp-public.php:184
+msgid "Qero Points"
+msgstr "Pontos Qero"
+
+#: public/class-qero-for-wp-public.php:311
+msgid "The field \"cellphone\" should not be empty!"
+msgstr "Os campos \"telemóvel\" não pode estar vazio!"
+
+#: public/class-qero-for-wp-public.php:315
+#: public/class-qero-for-wp-public.php:405
+#: public/class-qero-for-wp-public.php:418
+#: public/class-qero-for-wp-public.php:442
+#: public/class-qero-for-wp-public.php:457
+#: public/class-qero-for-wp-public.php:692
+#: public/class-qero-for-wp-public.php:705
+msgid "User not authenticated!"
+msgstr "Cliente não autenticado!"
+
+#: public/class-qero-for-wp-public.php:320
+msgid "User already registered!"
+msgstr "Este cliente já está registado!"
+
+#: public/class-qero-for-wp-public.php:342
+msgid "The field \"cellphone\" and \"name\" should not be empty!"
+msgstr "Os campos \"telemóvel\" e \"nome\" não podem estar vazios!"
+
+#: public/class-qero-for-wp-public.php:356
+#: public/class-qero-for-wp-public.php:383
+msgid "Please verify the inserted data."
+msgstr "Por favor, verifique os dados que inseriu."
+
+#: public/class-qero-for-wp-public.php:373
+msgid "Cellphone is required"
+msgstr "O telemóvel é obrigatório"
+
+#: public/class-qero-for-wp-public.php:464
+#: public/class-qero-for-wp-public.php:714
+msgid "No information!"
+msgstr "Sem informações!"
+
+#: public/class-qero-for-wp-public.php:614
+#, php-format
+msgid "In this order were spent %s points!"
+msgstr "Foram gastos %s pontos nesta compra!"
+
+#: public/class-qero-for-wp-public.php:620
+#, php-format
+msgid ""
+"This order generated %s points! The Customer will receive them once this "
+"order goes to \"%s\"."
+msgstr ""
+"Esta compra gerou %s pontos! O cliente vai receber os pontos quando a "
+"encomenda entrar em \"%s\"."
+
+#: public/class-qero-for-wp-public.php:709
+msgid ""
+"Before spending points you need to have a loyal account! Go to \"My "
+"Account\"."
+msgstr ""
+"Antes de gastar pontos, precisa de ativar uma conta de fidelização! Entre em "
+"\"Minha conta\"."
+
+#: public/class-qero-for-wp-public.php:724
+msgid "Invalid points!"
+msgstr "Pontos inválidos!"
+
+#: public/class-qero-for-wp-public.php:751
+#, php-format
+msgid "Discount %s points"
+msgstr "Desconte %s pontos"
+
+#: admin/partials/qero-for-wp-header.php:12
+#: admin/partials/qero-for-wp-header.php:19
+msgid "Loading..."
+msgstr "A carregar..."
+
+#: templates/plain/qero-invite-item-email.php:7
+#: templates/html/qero-invite-item-email.php:6
+#, php-format
+msgid "Hello %s, Become a loyal customer!"
+msgstr "Olá %s, Torne-se cliente fidelizado!"
+
+#: templates/plain/qero-invite-item-email.php:13
+#: templates/html/qero-invite-item-email.php:17
+msgid ""
+"Along with Qero Loyalty Program, you can earn points and use them when "
+"shopping in our store!"
+msgstr ""
+"Com o programa de fidelização Qero, agora pode ganhar pontos e descontar em "
+"compras na nossa loja!"
+
+#: templates/plain/qero-invite-item-email.php:14
+#: templates/html/qero-invite-item-email.php:18
+msgid "Shop in our store and enjoy the exclusive discounts that we offer you."
+msgstr ""
+"Venha comprar na nossa loja e usufrua dos descontos especiais que temos para "
+"si."
+
+#: templates/html/qero-invite-item-email.php:19
+msgid "Visit our store >>"
+msgstr "Visitar a nossa loja >>"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:25
+#, php-format
+msgid "Total loyal clients: %s"
+msgstr "Total de clientes fidelizados: %s"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:28
+#, php-format
+msgid "Total sales value: %s %s"
+msgstr "Valor total gasto: %s %s"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:33
+msgid "Store sales (last month)"
+msgstr "Vendas da loja (no último mês)"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:38
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:16
+msgid "Campaigns"
+msgstr "Campanhas"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:45
+msgid "Campaign title"
+msgstr "Título da campanha"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:48
+msgid "Starting date"
+msgstr "Data de início"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:51
+msgid "Ending date"
+msgstr "Data de fim"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:54
+msgid "Number of sales"
+msgstr "Número de vendas"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:57
+msgid "Amount"
+msgstr "Montante"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:75
+msgid "Clients"
+msgstr "Clientes"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:82
+msgid "ID"
+msgstr "ID"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:85
+#: admin/templates/account/qero-for-wp-config.php:75
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:96
+#: public/templates/checkout/qero-for-wp-not-logged.php:65
+msgid "Name"
+msgstr "Nome"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:88
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:65
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:102
+#: public/templates/checkout/qero-for-wp-not-logged.php:35
+#: public/templates/checkout/qero-for-wp-not-logged.php:57
+#: public/templates/checkout/qero-for-wp-not-logged.php:79
+msgid "Cellphone"
+msgstr "Telemóvel"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:91
+msgid "Total spent"
+msgstr "Total de vendas"
+
+#: admin/templates/dashboard/qero-for-wp-dashboard.php:106
+msgid "Loyal clients (last month)"
+msgstr "Clientes fidelizados (no último mês)"
+
+#: admin/templates/account/qero-for-wp-config.php:28
+msgid "Make sure you have E-goi ApiKey connected!"
+msgstr "Verifique se inseriu a ApiKey da sua conta E-goi!"
+
+#: admin/templates/account/qero-for-wp-config.php:45
+msgid "APIKEY"
+msgstr "APIKEY"
+
+#: admin/templates/account/qero-for-wp-config.php:49
+msgid "Store"
+msgstr "Loja"
+
+#: admin/templates/account/qero-for-wp-config.php:66
+msgid "+ Add new store"
+msgstr "+  Adicione uma nova loja"
+
+#: admin/templates/account/qero-for-wp-config.php:70
+msgid "Save changes"
+msgstr "Guardar alterações"
+
+#: admin/templates/account/qero-for-wp-config.php:77
+msgid "Enter App name"
+msgstr "Insira o nome da aplicação"
+
+#: admin/templates/account/qero-for-wp-config.php:78
+msgid "Submit"
+msgstr "Submeter"
+
+#: admin/templates/account/qero-for-wp-config.php:85
+#: admin/templates/account/qero-for-wp-config.php:94
+#: admin/templates/account/qero-for-wp-config.php:103
+msgid "Step"
+msgstr "Passo"
+
+#: admin/templates/account/qero-for-wp-config.php:86
+msgid "Create your first discount in Qero's dashboard"
+msgstr "Crie o primeiro desconto no dashboard do Qero"
+
+#: admin/templates/account/qero-for-wp-config.php:89
+msgid "Create campaign"
+msgstr "Criar campanha"
+
+#: admin/templates/account/qero-for-wp-config.php:95
+msgid ""
+"Invite your clients and convert them into loyal one in your online store"
+msgstr ""
+"Convide os clientes da sua loja online e converta-os em clientes fidelizados"
+
+#: admin/templates/account/qero-for-wp-config.php:98
+msgid "Send Invite"
+msgstr "Enviar convite"
+
+#: admin/templates/account/qero-for-wp-config.php:104
+msgid "You'r all set to start!"
+msgstr "Está pronto para começar!"
+
+#: admin/templates/account/qero-for-wp-config.php:115
+msgid "Warning, this is one time usage!"
+msgstr "Cuidado! só via conseguir utilizar uma vez!"
+
+#: admin/templates/account/qero-for-wp-config.php:121
+msgid "This will send an email to all of your customers"
+msgstr "Isso enviará um email para todos os seus clientes"
+
+#: admin/templates/account/qero-for-wp-config.php:124
+msgid "Close"
+msgstr "Fechar"
+
+#: admin/templates/account/qero-for-wp-config.php:126
+msgid "Continue"
+msgstr "Continuar"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:25
+msgid "End"
+msgstr "Fim"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:28
+msgid "Title"
+msgstr "Título"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:31
+msgid "Description"
+msgstr "Descrição"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:43
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:90
+msgid "Become loyal"
+msgstr "Torne-se cliente fidelizado"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:54
+#: public/templates/checkout/qero-for-wp-not-logged.php:45
+msgid "Country"
+msgstr "País"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:57
+#: public/templates/checkout/qero-for-wp-not-logged.php:48
+msgid "Select a country"
+msgstr "Selecione um país"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:66
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:104
+#: public/templates/checkout/qero-for-wp-not-logged.php:40
+#: public/templates/checkout/qero-for-wp-not-logged.php:59
+#: public/templates/checkout/qero-for-wp-not-logged.php:81
+msgid "Your cellphone here."
+msgstr "Insira o seu telemóvel aqui."
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:73
+msgid "Connect"
+msgstr "Associar"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:98
+msgid "Your Name here."
+msgstr "Insira o seu Nome aqui."
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:108
+#: public/templates/checkout/qero-for-wp-not-logged.php:72
+msgid "E-mail"
+msgstr "O E-mail"
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:110
+msgid "Your Email here."
+msgstr "Insira o seu E-mail aqui."
+
+#: public/templates/myaccount/qero-for-wp-not-loyal.php:116
+#: public/templates/checkout/qero-for-wp-logged-not-loyal.php:17
+msgid "Make me loyal!"
+msgstr "Tornar-me cliente fidelizado!"
+
+#: public/templates/myaccount/qero-for-wp-loyal.php:24
+msgid "Movements"
+msgstr "Movimentos"
+
+#: public/templates/myaccount/qero-for-wp-loyal.php:39
+msgid "Value"
+msgstr "Valor"
+
+#: public/templates/myaccount/qero-for-wp-loyal.php:42
+msgid "Credit In"
+msgstr "Saldo adicionado"
+
+#: public/templates/myaccount/qero-for-wp-loyal.php:45
+msgid "Credit Out"
+msgstr "Saldo retirado"
+
+#: public/templates/myaccount/qero-for-wp-loyal.php:48
+msgid "Date"
+msgstr "Data"
+
+#: public/templates/myaccount/qero-for-wp-loyal.php:74
+msgid "No movements yet..."
+msgstr "Ainda não existe registo de movimentos..."
+
+#: public/templates/myaccount/qero-for-wp-loyal.php:87
+msgid "Account Info"
+msgstr "Informações da Conta"
+
+#: public/templates/myaccount/qero-for-wp-points-header.php:26
+msgid "Qero's Page"
+msgstr "Página do Qero"
+
+#: public/templates/thankyou/qero-for-wp-thankyou.php:12
+#, php-format
+msgid ""
+"Once complete this purchase will give you up to <strong>%s</strong> <em "
+"class=\"qero-icon\"></em>  points!"
+msgstr ""
+"Após a conclusão desta compra, vai receber <strong>%s</strong> <em "
+"class=\"qero-icon\"></em>  pontos!"
+
+#: public/templates/product/qero-for-wp-product-points-earn.php:14
+#, php-format
+msgid ""
+"Get <strong>%s</strong>  <em class=\"qero-icon\"></em>  points with this "
+"product!"
+msgstr ""
+"Ganhe <strong>%s</strong>  <em class=\"qero-icon\"></em>  pontos com este "
+"produto!"
+
+#: public/templates/checkout/qero-for-wp-not-logged.php:18
+msgid "Gain points!"
+msgstr "Ganhe pontos!"
+
+#: public/templates/checkout/qero-for-wp-not-logged.php:23
+msgid "Become loyal!"
+msgstr "Torne-se cliente fidelizado!"
+
+#: public/templates/checkout/qero-for-wp-not-logged.php:67
+msgid "Your name here."
+msgstr "Insira o seu Nome aqui."
+
+#: public/templates/checkout/qero-for-wp-not-logged.php:74
+msgid "Your email here."
+msgstr "Insira o seu E-mail aqui."
+
+#: public/templates/checkout/qero-for-wp-not-logged.php:79
+msgid "mandatory"
+msgstr "Obrigatório"
+
+#: public/templates/checkout/qero-for-wp-cart-points.php:10
+msgid "Win Points"
+msgstr "Pontos ganhos"
+
+#: public/templates/checkout/qero-for-wp-logged-loyal.php:18
+msgid "Spend points!"
+msgstr "Gaste pontos!"
+
+#: public/templates/checkout/qero-for-wp-logged-loyal.php:22
+msgid "Max:"
+msgstr "Máximo:"
+
+#: public/templates/checkout/qero-for-wp-logged-loyal.php:30
+msgid "Points"
+msgstr "Pontos"
+
+#: public/templates/checkout/qero-for-wp-logged-loyal.php:41
+msgid "Points to spend"
+msgstr "Pontos disponíveis para gastar"
+
+#: public/templates/checkout/qero-for-wp-logged-not-loyal.php:15
+msgid "Become loyal today and get points with this purchase!"
+msgstr "Torne-se cliente fidelizado e ganhe pontos com esta compra!"
+
+#: public/templates/checkout/qero-for-wp-logged-not-loyal.php:18
+msgid "Qero!"
+msgstr "Qero!"
+
+#. Name of the plugin
+msgid "Qero"
+msgstr "Qero"
+
+#. Description of the plugin
+msgid ""
+"Make customers loyal with Qero, let your customers accumulate points to "
+"redeem them for discounts in your store store."
+msgstr ""
+"Torne os seus clientes em clientes fidelizados com o Qero e permita que "
+"acumulem pontos em troca de descontos na sua loja."
+
+#. URI of the plugin
+msgid "https://qero.io/"
+msgstr "https://qero.io/"
+
+#. Author of the plugin
+msgid "E-goi"
+msgstr "E-goi"
+
+#. Author URI of the plugin
+msgid "https://www.e-goi.com/"
+msgstr "https://www.e-goi.com/"
